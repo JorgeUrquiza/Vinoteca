@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ----- Header ----- */
+
+a{
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+ul,
+ol{
+  list-style: none;
+}
+
+.logoFather{
+  list-style: none;
+}
+.logo{
+  width: 16%;
+}
+
+.main__header{
+  background: #1f1f1f;
+  font-size: 20px;
+  position: fixed;
+  width: 100vw;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__header nav{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main__header ul li{
+  display: inline-block;
+  position: relative;
+}
+.main__header ul ul{
+  display: none;
+  position: absolute;
+  background-color: #1f1f1f;
+  width: 111%;
+  height: 86px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px 5px 10px 0px;
+}
+
+.main__header ul ul li{
+  display: block;
+}
+
+.main__header ul li:hover ul{
+  display: block;
+  text-decoration: none;
+}
+
+.main__header nav a{
+  transition: opacity 0.6s ease;
+  opacity: .6;
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: block;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+}
+
+.main__header nav a:hover{
+  display: inline-block;
+  background: #3D010C;
+  color: #f2f2f2;
+  opacity: 1;
+}
+
+/* ----- Fin de Header ----- */
+
+/* ----- Contenido Principal ----- */
+
+.imagen {
+  width: 100%;
+  height: 700px; 
+}
+/* Esto es de envios*/
+body .main__ship{
+  padding-top: 80px;
+  background: #f2f2f2;
+  color: #3D010C;
+  padding-left: 30px;
+  font-size: 25px;
+}
+body .main__ship h2{
+  font-family: 'Cinzel', serif;
+  padding-bottom: 10px;
+  padding-left: 12px;
+}
+
+body .main__info h3{
+  font-family: 'Cinzel', serif;
+}
+body .main__ship .main__paragraph{
+  font-size: 20px;
+  padding: 20px 0px 15px 0px;
+  line-height: 40px;
+}
+
+
+/* Esto es de contacto*/
+body .main__contact{
+  height: 956px;
+  background: #f2f2f2;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 25px;
+  color: #3D010C;
+}
+
+body .main__contact h2{
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  text-decoration: underline;
+
+}
+
+body .main__contact ul {
+  background: #140104 ;
+  margin-top: 25px;
+}
+/*Aca termina contacto */
+
+/* Nosotros */
+.main__about {
+  padding-top: 40px;
+  height: 950px;
+  background: #f2f2f2;
+}
+.main__about img {
+  width: 100vw ;
+}
+.main__about h2{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  color: #3D010C;
+  line-height: 60px;
+}
+
+.main__about h3{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  color: #3D010C;
+  line-height: 60px;
+}
+
+.main__about p{
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+/* Aca termina Nosotros */
+
+/* Aca empieza Productos */
+.main__product {
+  padding-top: 50px;
+  height: 2850px;
+  background: #f2f2f2;
+  text-align: center;
+}
+.main__product h2{
+  font-size: 40px;
+  font-family: 'Cinzel', serif;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.main__product h3{
+  font-size: 25px;
+  font-family: 'Cinzel', serif;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+.main__product .product img{
+  width: 15%;
+}
+.main__product .product p{
+  padding-bottom: 15px;
+  margin: 1% 18%;
+}
+.main__product .product{
+  text-align: center;
+  padding-top: 5px;
+  
+}
+.main__product .product ul li a{
+  transition: 0.6s ease;
+  color: black;
+  text-decoration: none;
+  padding: 2px 2px;
+  border: 1.5px solid #140104;
+  border-radius: 5px;
+}
+
+.main__product .product ul li a:hover{
+  background-color: #140104;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* Aca termina Productos */ 
+
+.main{
+  padding: 30px 0;
+}
+
+.main .main__title{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 50px;
+  color: #3D010C;
+}
+
+.main .main__paragraph{
+  text-align: center;
+  font-size: 20px;
+}
+
+main .categories__contain{
+  background: #f2f2f2;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.main .categories__contain h3{
+  font-family: 'Cinzel', serif;
+  font-size: 45px;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: #3D010C;
+  text-align: center;
+}
+
+.main .categories__contain .container__shop{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 25px;
+  color: #3D010C;
+}
+.main .categories__contain .container__shop .shop{
+  width: 26%;
+  padding-bottom: 2%;
+  transition: 0.6s ease;
+  opacity: .85;
+}
+.main .categories__contain .container__shop .shop:hover{
+  opacity: 1;
+  color: #140004;
+  font-size: 28px;
+  width: 27%;
+}
+
+.main .categories__contain .container__shop .shop .thum{
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.main .categories__contain .container__shop .shop .thum img{
+  width: 70%;
+  vertical-align: top;
+}
+
+.main .categories__contain .container__shop .shop .thum img:hover{
+
+  opacity: 1;
+}
+/* ----- Fin de Contenido principal ----- */
+
+/* Donde encontrarnos */
+.main__info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main__info h3{
+  font-family: 'Cinzel', serif;
+  margin-left: 15px;
+  font-size: 35px;
+  color: #3D010C;
+  margin-bottom: 20px;
+}
+
+.main__info .paragraph{
+  margin-left: 5px;
+  font-size: 20px;
+  line-height: 40px;  
+}
+
+/* Aca empieza el Footer */
+
+.footer{
+  background: #140104;
+  color: #ffffff;
+  font-size: 20px;
+
+}
+
+.footer__logo{
+  display: inline-block;
+  width: 150px;
+}
+
+.footer__logo .logo__son{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer__paragraph {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+
