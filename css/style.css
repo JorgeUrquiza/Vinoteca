@@ -139,7 +139,54 @@ main .categories__contain{
   width: 70%;
   vertical-align: top;
 }
+/* ----- Fin de Contenido principal ----- */
 
+/* Donde encontrarnos */
+.main__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__info h3{
+  font-family: 'Cinzel', serif;
+  margin-left: 15px;
+  font-size: 30px;
+  color: #3D010C;
+  margin-bottom: 20px;
+}
+
+.main__info .paragraph{
+  margin-left: 5px;
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 5%;  
+}
+/* Fin de Donde encontrarnos */
+
+/* Aca empieza el Footer */
+.footer{
+  background: #140104;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.footer__logo{
+  display: inline-block;
+  width: 35%;
+}
+
+.footer__logo .logo__son{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer__paragraph {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+}
+/* Fin del Footer */
 
 @media (min-width: 992px){
 
@@ -148,15 +195,17 @@ main .categories__contain{
   height: 700px; 
 }
 .main{
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 .main .main__title{
   font-size: 50px;
+  padding-bottom: 15px;
 }
 
 .main .main__paragraph{
   font-size: 20px;
+  padding-bottom: 40px;
 }
 
 main .categories__contain{
@@ -232,14 +281,10 @@ main .categories__contain{
 /* Aca empieza el Footer */
 
 .footer{
-  background: #140104;
-  color: #ffffff;
   font-size: 20px;
-
 }
 
 .footer__logo{
-  display: inline-block;
   width: 150px;
 }
 
@@ -249,8 +294,6 @@ main .categories__contain{
 }
 
 .footer__paragraph {
-  display: inline-block;
-  text-align: center;
   font-size: 30px;
 }
 /* Fin del Footer */
@@ -334,18 +377,13 @@ body .main__ship .main__paragraph{
 }
 
 .main__info h3{
-  font-family: 'Cinzel', serif;
-  margin-left: 15px;
   font-size: 35px;
-  color: #3D010C;
-  margin-bottom: 20px;
 }
 
 .main__info .paragraph{
-  margin-left: 5px;
-  font-size: 20px;
-  line-height: 40px;  
+  line-height: 40px;
 }
+
 /* Aca termina Envios */ 
 
 /* Nosotros */
