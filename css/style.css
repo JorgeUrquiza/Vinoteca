@@ -136,7 +136,7 @@ main .categories__contain{
   margin-bottom: 10px;
 }
 .main .categories__contain .container__shop .shop .thum img{
-  width: 70%;
+  width: 60%;
   vertical-align: top;
 }
 /* ----- Fin de Contenido principal ----- */
@@ -381,11 +381,10 @@ main .categories__contain{
 .main .categories__contain .container__shop .shop .thum{
   width: 100%;
   margin-bottom: 10px;
-
 }
 
 .main .categories__contain .container__shop .shop .thum img{
-  width: 70%;
+  width: 60%;
   vertical-align: top;
 }
 
@@ -421,16 +420,13 @@ main .categories__contain{
 .footer{
   font-size: 20px;
 }
-
 .footer__logo{
   width: 150px;
 }
-
 .footer__logo .logo__son{
   width: 100%;
   margin-top: 10px;
 }
-
 .footer__paragraph {
   font-size: 30px;
 }
