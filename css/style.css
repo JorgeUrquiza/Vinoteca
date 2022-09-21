@@ -237,6 +237,38 @@ main .categories__contain{
 
 /* Aca termina Productos */ 
 
+/* Esto es de Envios*/
+body .main__ship{
+  padding-top: 160px;
+  background: #f2f2f2;
+  font-size: 25px;
+}
+body .main__ship h2{
+  font-family: 'Cinzel', serif;
+  padding-bottom: 15px;
+  padding-left: 12px;
+  font-size: 37px;
+  color: #3D010C;
+}
+body .main__ship .main__paragraph{
+  font-size: 20px;
+  padding: 20px 0px 15px 0px;
+  line-height: 30px;
+}
+body h3{
+  font-family: 'Cinzel', serif;
+  padding-bottom: 15px;
+  padding-left: 12px;
+  font-size: 37px;
+  color: #3D010C;
+}
+
+body .main__info{
+  font-size: 20px;
+  line-height: 30px;
+}
+/* Aca termina Envios */ 
+
 @media (min-width: 992px){
 
 /* ----- Contenido Principal ----- */
@@ -388,41 +420,24 @@ main .categories__contain{
 
 /* Esto es de Envios*/
 body .main__ship{
-  padding-top: 80px;
-  background: #f2f2f2;
-  color: #3D010C;
+  padding-top: 70px;
   padding-left: 30px;
-  font-size: 25px;
 }
 body .main__ship h2{
-  font-family: 'Cinzel', serif;
-  padding-bottom: 10px;
-  padding-left: 12px;
-}
-
-body .main__info h3{
-  font-family: 'Cinzel', serif;
+  font-size: 37px;
 }
 body .main__ship .main__paragraph{
-  font-size: 20px;
-  padding: 20px 0px 15px 0px;
   line-height: 40px;
 }
-/* Donde encontrarnos */
-.main__info{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+body h3{
+  font-size: 37px;
+  color: #3D010C;
 }
-
-.main__info h3{
-  font-size: 35px;
+body .main__info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 300px;
 }
-
-.main__info .paragraph{
-  line-height: 40px;
-}
-
 /* Aca termina Envios */ 
 
 /* Nosotros */
