@@ -267,7 +267,40 @@ body .main__info{
   font-size: 20px;
   line-height: 30px;
 }
-/* Aca termina Envios */ 
+/* Aca termina Envios */
+
+/* Nosotros */
+.main__about {
+  padding-top: 34.4%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.main__about img {
+  width: 100vw ;
+}
+.main__about h2{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 33px;
+  color: #3D010C;
+  line-height: 50px;
+}
+
+.main__about h3{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  color: #3D010C;
+  line-height: 50px;
+}
+
+.main__about p{
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+/* Aca termina Nosotros */
 
 @media (min-width: 992px){
 
@@ -443,35 +476,24 @@ body .main__info{
 /* Nosotros */
 .main__about {
   padding-top: 40px;
-  height: 950px;
-  background: #f2f2f2;
 }
 .main__about img {
   width: 100vw ;
 }
 .main__about h2{
-  text-align: center;
-  font-family: 'Cinzel', serif;
   font-size: 30px;
-  color: #3D010C;
   line-height: 60px;
 }
 
 .main__about h3{
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  font-size: 25px;
-  color: #3D010C;
   line-height: 60px;
+  padding-bottom: 10px;
+
 }
 
 .main__about p{
   text-align: center;
-  font-size: 18px;
-  line-height: 20px;
-  padding-left: 10px;
 }
-
 /* Aca termina Nosotros */
 
 /* Esto es de contacto*/
