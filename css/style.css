@@ -302,6 +302,30 @@ body .main__info{
 }
 /* Aca termina Nosotros */
 
+/* Esto es de contacto*/
+body .main__contact{
+  height: 100%;
+  background: #f2f2f2;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 25px;
+  color: #3D010C;
+}
+
+body .main__contact h2{
+  font-family: 'Cinzel', serif;
+  font-size: 33px;
+  text-decoration: underline;
+  padding-bottom: 11px;
+}
+
+body .main__contact ul {
+  background: #140104 ;
+  width: 100vw;
+  margin-top: 25px;
+}
+/*Aca termina contacto */
+
 @media (min-width: 992px){
 
 /* ----- Contenido Principal ----- */
@@ -498,23 +522,13 @@ body .main__info{
 
 /* Esto es de contacto*/
 body .main__contact{
-  height: 956px;
-  background: #f2f2f2;
-  padding-top: 80px;
-  text-align: center;
-  font-size: 25px;
-  color: #3D010C;
+  padding-top: 70px;
 }
-
 body .main__contact h2{
-  font-family: 'Cinzel', serif;
   font-size: 40px;
-  text-decoration: underline;
-
 }
-
 body .main__contact ul {
-  background: #140104 ;
+  width: 100vw;
   margin-top: 25px;
 }
 /*Aca termina contacto */
