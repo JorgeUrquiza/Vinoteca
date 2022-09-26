@@ -23,6 +23,7 @@ ol{
 }
 
 .main__header{
+  z-index: 1;
   background: #1f1f1f;
   font-size: 20px;
   position: fixed;
