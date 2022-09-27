@@ -240,7 +240,7 @@ main .categories__contain{
 
 /* Esto es de Envios*/
 body .main__ship{
-  padding-top: 160px;
+  padding-top: 50%;
   background: #f2f2f2;
   font-size: 25px;
 }
@@ -272,7 +272,7 @@ body .main__info{
 
 /* Nosotros */
 .main__about {
-  padding-top: 34.4%;
+  padding-top: 43%;
   height: 100%;
   background: #f2f2f2;
 }
@@ -307,7 +307,7 @@ body .main__info{
 body .main__contact{
   height: 100%;
   background: #f2f2f2;
-  padding-top: 150px;
+  padding-top: 50%;
   text-align: center;
   font-size: 25px;
   color: #3D010C;
@@ -320,11 +320,7 @@ body .main__contact h2{
   padding-bottom: 11px;
 }
 
-body .main__contact ul {
-  background: #140104 ;
-  width: 100vw;
-  margin-top: 25px;
-}
+
 /*Aca termina contacto */
 
 @media (min-width: 992px){
@@ -474,7 +470,7 @@ main .categories__contain{
 
 /* Esto es de Envios*/
 body .main__ship{
-  padding-top: 70px;
+  padding-top: 5%;
   padding-left: 30px;
 }
 body .main__ship h2{
@@ -496,7 +492,7 @@ body .main__info{
 
 /* Nosotros */
 .main__about {
-  padding-top: 40px;
+  padding-top: 3%;
 }
 .main__about img {
   width: 100vw ;
@@ -509,7 +505,6 @@ body .main__info{
 .main__about h3{
   line-height: 60px;
   padding-bottom: 10px;
-
 }
 
 .main__about p{
@@ -519,14 +514,14 @@ body .main__info{
 
 /* Esto es de contacto*/
 body .main__contact{
-  padding-top: 70px;
+  padding-top: 4%;
 }
 body .main__contact h2{
   font-size: 40px;
 }
 body .main__contact ul {
   width: 100vw;
-  margin-top: 25px;
+  margin-top: 6%;
 }
 /*Aca termina contacto */
 
