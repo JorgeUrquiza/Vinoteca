@@ -89,12 +89,9 @@ ol{
 
 /* ----- Contenido Principal ----- */
 
-.imagen {
-  width: 100%;
-  height: 300px; 
-}
+
 .main{
-  padding: 50px 0;
+  padding-top: 38%;
 }
 .main .main__title{
   font-family: 'Cinzel', serif;

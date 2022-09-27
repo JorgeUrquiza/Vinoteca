@@ -43,7 +43,28 @@
     </header>
     <main class="main">
       <div>
-        <img class="imagen" src="./img/slider4.jpg" alt="Nuestra bodega" />
+        <!--<img class="imagen" src="./img/slider4.jpg" alt="Nuestra bodega" /> -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/c1.jpg" class="d-block w-100" alt="chacra">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/c2.jpg" class="d-block w-100" alt="uvas">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/c3.jpg" class="d-block w-100" alt="corchos">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
         <h1 class="main__title">Nuestra chacra de Mendoza, donde se comienza a escribir grandes historias...</h1>
         <p class="main__paragraph">La tierra del sol y del buen vino, desde donde salen las mas finas botellas disponibles en bodegas Urquiza.</p>
       </div>
