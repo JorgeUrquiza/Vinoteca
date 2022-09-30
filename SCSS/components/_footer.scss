@@ -1,0 +1,37 @@
+.footer {
+    background: #140104;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.footer__logo {
+    display: inline-block;
+    width: 35%;
+}
+
+.footer__logo .logo__son {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer__paragraph {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media (min-width: 992px) {
+    .footer {
+        font-size: 20px;
+    }
+    .footer__logo {
+        width: 150px;
+    }
+    .footer__logo .logo__son {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer__paragraph {
+        font-size: 30px;
+    }
+}

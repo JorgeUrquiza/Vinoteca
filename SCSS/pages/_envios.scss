@@ -1,0 +1,46 @@
+body .main__ship {
+    padding-top: 35%;
+    background: #f2f2f2;
+    font-size: 25px;
+}
+body .main__ship h2 {
+    font-family: "Cinzel", serif;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    font-size: 37px;
+    color: #3d010c;
+}
+body .main__ship .main__paragraph {
+    font-size: 20px;
+    padding: 20px 0px 15px 0px;
+    line-height: 30px;
+}
+body h3 {
+    font-family: "Cinzel", serif;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    font-size: 37px;
+    color: #3d010c;
+}
+
+@media (min-width: 992px) {
+    body .main__ship {
+        padding-top: 5%;
+        padding-left: 30px;
+    }
+    body .main__ship h2 {
+        font-size: 37px;
+    }
+    body .main__ship .main__paragraph {
+        line-height: 40px;
+    }
+    body h3 {
+        font-size: 37px;
+        color: #3d010c;
+    }
+    body .main__info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 300px;
+    }
+}

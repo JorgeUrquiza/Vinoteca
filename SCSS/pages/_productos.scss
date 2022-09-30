@@ -1,0 +1,84 @@
+.main__product {
+    padding-top: 30% !important;
+    background: #f2f2f2;
+    text-align: center;
+}
+.main__product h2 {
+    color: #3d010c;
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.main__product h3 {
+    color: #3d010c;
+    font-size: 25px;
+    font-family: "Cinzel", serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.main__product p {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+}
+
+.main__product .product img {
+    width: 35%;
+}
+.main__product .product p {
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin: 1% 18%;
+}
+.main__product .product {
+    text-align: center;
+    padding-top: 5px;
+}
+.main__product .product ul {
+    margin: auto;
+}
+.main__product .product ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 2px 2px;
+    border: 1.5px solid #140104;
+    border-radius: 5px;
+}
+
+@media (min-width: 992px) {
+    .main__product {
+        padding-top: 4% !important;
+        height: 100%;
+    }
+    .main__product h2 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .main__product h3 {
+        padding-top: 10px;
+    }
+    .main__product .product img {
+        width: 15%;
+    }
+    .main__product .product p {
+        padding-bottom: 15px;
+        margin: 1% 18%;
+    }
+    .main__product .product {
+        padding-top: 5px;
+    }
+    .main__product .product ul li a {
+        transition: 0.6s ease;
+        color: black;
+        text-decoration: none;
+        padding: 2px 2px;
+        border: 1.5px solid #140104;
+        border-radius: 5px;
+    }
+
+    .main__product .product ul li a:hover {
+        background-color: #140104;
+        color: #ffffff;
+        opacity: 1;
+    }
+}
