@@ -8385,16 +8385,11 @@ a {
   text-decoration: none;
   color: #f2f2f2; }
 
-ul,
-ol {
-  list-style: none; }
-
 .logoFather {
   list-style: none; }
-
-.logo {
-  width: 40%;
-  padding-top: 4px; }
+  .logoFather .logo {
+    width: 20%;
+    padding-top: 4px; }
 
 .main__header {
   z-index: 1;
@@ -8408,29 +8403,11 @@ ol {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
-
-.main__header nav {
-  padding-right: 5px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
-
-.main__header ul li {
-  display: inline-block;
-  position: relative; }
-
-.main__header ul ul {
-  display: none;
-  position: absolute;
-  background-color: #1f1f1f;
-  width: 111%;
-  height: 86px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  padding: 10px 5px 10px 0px; }
-
-.main__header ul ul li {
-  display: block; }
+  .main__header nav {
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
 
 .main__header ul li:hover ul {
   display: block;
@@ -8463,8 +8440,8 @@ ol {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between; }
-  .main__header nav {
-    padding-right: 20px; } }
+    .main__header nav {
+      padding-right: 20px; } }
 
 .footer {
   background: #140104;
@@ -8496,7 +8473,7 @@ ol {
     font-size: 30px; } }
 
 .main {
-  padding-top: 25%; }
+  padding-top: 13%; }
 
 .main .main__title {
   font-family: "Cinzel", serif;
