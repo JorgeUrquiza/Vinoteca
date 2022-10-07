@@ -6,11 +6,10 @@
 
 .footer__paragraph {
     color: #ffffff;
-    font-size: 25px;
     padding-left: 5%;
     h3{
         color: #ffffff;
-        font-size: 2rem;
+        font-size: 1.7rem;
         padding-top: 10px;
     }
 }
@@ -34,7 +33,7 @@
     .footer__paragraph  {
         color: #ffffff;
         h3{
-            font-size: 2rem;
+            font-size: 1.7rem;
             text-align: center;
         }
 
@@ -43,7 +42,7 @@
         display: grid;
         grid-template-rows: auto;
         .logo__son {
-            width: 70%;
+            width: 50%;
             padding-bottom: 10%;
         }
     }
