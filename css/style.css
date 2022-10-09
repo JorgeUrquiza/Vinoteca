@@ -8381,10 +8381,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-a {
-  text-decoration: none;
-  color: #f2f2f2; }
-
 .logo {
   width: 20%;
   padding-top: 4px; }
@@ -8402,12 +8398,15 @@ a {
       color: #f2f2f2;
       font-size: 1.5rem;
       font-weight: 500;
-      border-radius: 10px; }
+      border-radius: 10px;
+      text-decoration: none; }
       .main__header nav a:hover {
         display: inline-block;
         background: #3d010c;
         color: #f2f2f2;
         opacity: 1; }
+    .main__header nav .nav-item {
+      text-align: end; }
 
 @media (min-width: 992px) {
   .logo {
