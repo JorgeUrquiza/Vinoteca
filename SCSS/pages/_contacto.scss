@@ -1,10 +1,12 @@
 body .main__contact {
+    margin-top: 22%;
     height: 100%;
     background: #f2f2f2;
     text-align: center;
     font-size: 20px;
     color: #3d010c;
     h2 {
+        padding-top: 2%;
         font-family: "Cinzel", serif;
         font-size: 33px;
         text-decoration: underline;
@@ -17,7 +19,9 @@ body .main__contact {
 
 @media (min-width: 992px) {
     body .main__contact {
+        margin-top: 2%;
         h2 {
+            padding-top: 2.5%;
             font-size: 40px;
         }
         .country {

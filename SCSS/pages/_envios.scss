@@ -1,4 +1,5 @@
 body .main__ship {
+    margin-top: 22%;
     background: #f2f2f2;
     font-size: 25px;
     h2 {
@@ -25,6 +26,7 @@ body .main__ship {
 @media (min-width: 992px) {
     body {
         .main__ship {
+            margin-top: 4%;
             padding-left: 30px;
             h2 {
                 font-size: 37px;

@@ -1,4 +1,5 @@
 .main__product {
+    margin-top: 10%;
     background: #f2f2f2;
     text-align: center;
     h2 {
@@ -47,6 +48,7 @@
 
 @media (min-width: 992px) {
     .main__product {
+        margin-top: 4%;
         height: 100%;
         h2 {
             padding-bottom: 10px;
