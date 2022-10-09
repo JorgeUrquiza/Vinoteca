@@ -1,5 +1,4 @@
 .main__about {
-    padding-top: 13.5%;
     height: 100%;
     background: #f2f2f2;
     img {
@@ -32,7 +31,6 @@
 
 @media (min-width: 992px) {
     .main__about {
-        padding-top: 3%;
         img {
             width: 100vw;
         }
