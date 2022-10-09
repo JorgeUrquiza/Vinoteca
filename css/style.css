@@ -8402,7 +8402,6 @@ a {
       color: #f2f2f2;
       font-size: 1.5rem;
       font-weight: 500;
-      padding: 10px 25px 10px 25px;
       border-radius: 10px; }
       .main__header nav a:hover {
         display: inline-block;
@@ -8456,7 +8455,7 @@ a {
       padding-bottom: 10%; } }
 
 .main {
-  margin-top: 21%; }
+  margin-top: 19%; }
   .main .main__title {
     font-family: "Cinzel", serif;
     text-align: center;
@@ -8560,7 +8559,7 @@ a {
 
 /* ----- Fin de Contenido principal ----- */
 .main__product {
-  margin-top: 10%;
+  margin-top: 18%;
   background: #f2f2f2;
   text-align: center; }
   .main__product h2, .main__product .h2 {
@@ -8599,11 +8598,11 @@ a {
 
 @media (min-width: 992px) {
   .main__product {
-    margin-top: 4%;
+    margin-top: 3%;
     height: 100%; }
     .main__product h2, .main__product .h2 {
       padding-bottom: 10px;
-      padding-top: 10px; }
+      padding-top: 15px; }
     .main__product h3, .main__product .h3 {
       padding-top: 10px; }
     .main__product .product {
@@ -8626,10 +8625,11 @@ a {
           opacity: 1; } }
 
 body .main__ship {
-  margin-top: 22%;
+  margin-top: 20%;
   background: #f2f2f2;
   font-size: 25px; }
   body .main__ship h2, body .main__ship .h2 {
+    padding-top: 3%;
     font-family: "Cinzel", serif;
     padding-bottom: 15px;
     padding-left: 12px;
@@ -8648,7 +8648,7 @@ body .main__ship {
 
 @media (min-width: 992px) {
   body .main__ship {
-    margin-top: 4%;
+    margin-top: 2%;
     padding-left: 30px; }
     body .main__ship h2, body .main__ship .h2 {
       font-size: 37px; }
@@ -8663,7 +8663,7 @@ body .main__ship {
     grid-gap: 300px; } }
 
 .main__about {
-  margin-top: 22%;
+  margin-top: 19%;
   height: 100%;
   background: #f2f2f2; }
   .main__about img {
@@ -8704,7 +8704,7 @@ body .main__ship {
       text-align: center; } }
 
 body .main__contact {
-  margin-top: 22%;
+  margin-top: 20%;
   height: 100%;
   background: #f2f2f2;
   text-align: center;
