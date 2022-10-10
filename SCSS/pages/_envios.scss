@@ -4,7 +4,7 @@ body .main__ship {
     font-size: 25px;
     h2 {
         padding-top: 3%;
-        font-family: "Cinzel", serif;
+        font-family: $fontPrimaty, $fontAlternative, serif;
         padding-bottom: 15px;
         padding-left: 12px;
         font-size: 37px;
@@ -16,7 +16,7 @@ body .main__ship {
         line-height: 30px;
     }
     h3 {
-        font-family: "Cinzel", serif;
+        font-family: $fontPrimaty, $fontAlternative, serif;
         padding-bottom: 15px;
         padding-left: 12px;
         font-size: 37px;

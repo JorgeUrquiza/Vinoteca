@@ -8387,7 +8387,7 @@ textarea.form-control-lg {
 
 .main__header {
   background: #1f1f1f;
-  font-family: "Cinzel", serif;
+  font-family: "Cinzel", "Times New Roman", serif;
   font-size: 20px;
   color: #f2f2f2; }
   .main__header nav {
@@ -8428,7 +8428,8 @@ textarea.form-control-lg {
   .footer__paragraph h3, .footer__paragraph .h3 {
     color: #ffffff;
     font-size: 1.7rem;
-    padding-top: 10px; }
+    padding-top: 10px;
+    font-family: "Cinzel", "Times New Roman", serif; }
 
 .footer__logo {
   display: grid;
@@ -8456,12 +8457,12 @@ textarea.form-control-lg {
 .main {
   margin-top: 19%; }
   .main .main__title {
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman";
     text-align: center;
     font-size: 30px;
     color: #3d010c; }
   .main .main__paragraph {
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman";
     text-align: center;
     font-size: 20px; }
   .main .categories__contain {
@@ -8469,7 +8470,7 @@ textarea.form-control-lg {
     overflow: hidden;
     padding: 30px 0; }
     .main .categories__contain h3, .main .categories__contain .h3 {
-      font-family: "Cinzel", serif;
+      font-family: "Cinzel", "Times New Roman";
       font-size: 35px;
       line-height: 34px;
       margin-bottom: 40px;
@@ -8479,7 +8480,7 @@ textarea.form-control-lg {
     .main .categories__contain .container__shop {
       display: flex;
       flex-direction: column;
-      font-family: "Cinzel", serif;
+      font-family: "Cinzel", "Times New Roman";
       text-align: center;
       font-size: 20px;
       color: #3d010c; }
@@ -8499,7 +8500,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center; }
   .main__info h3, .main__info .h3 {
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman";
     margin-left: 15px;
     font-size: 30px;
     color: #3d010c;
@@ -8534,7 +8535,7 @@ textarea.form-control-lg {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        font-family: "Cinzel", serif;
+        font-family: "Cinzel", "Times New Roman";
         text-align: center;
         font-size: 25px; }
         .main .categories__contain .container__shop .shop {
@@ -8564,17 +8565,17 @@ textarea.form-control-lg {
   .main__product h2, .main__product .h2 {
     color: #3d010c;
     font-size: 40px;
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     padding-bottom: 10px;
     padding-top: 10px; }
   .main__product h3, .main__product .h3 {
     color: #3d010c;
     font-size: 25px;
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     padding-bottom: 10px;
     padding-top: 10px; }
   .main__product p {
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     font-size: 20px; }
   .main__product .product {
     text-align: center;
@@ -8629,7 +8630,7 @@ body .main__ship {
   font-size: 25px; }
   body .main__ship h2, body .main__ship .h2 {
     padding-top: 3%;
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     padding-bottom: 15px;
     padding-left: 12px;
     font-size: 37px;
@@ -8639,7 +8640,7 @@ body .main__ship {
     padding: 20px 0px 15px 0px;
     line-height: 30px; }
   body .main__ship h3, body .main__ship .h3 {
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     padding-bottom: 15px;
     padding-left: 12px;
     font-size: 37px;
@@ -8669,18 +8670,18 @@ body .main__ship {
     width: 100vw; }
   .main__about h2, .main__about .h2 {
     text-align: center;
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     font-size: 33px;
     color: #3d010c;
     line-height: 50px; }
   .main__about h3, .main__about .h3 {
     text-align: center;
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     font-size: 25px;
     color: #3d010c;
     line-height: 50px; }
   .main__about p {
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     font-size: 18px;
     line-height: 20px;
     padding-left: 10px;
@@ -8711,7 +8712,7 @@ body .main__contact {
   color: #3d010c; }
   body .main__contact h2, body .main__contact .h2 {
     padding-top: 2%;
-    font-family: "Cinzel", serif;
+    font-family: "Cinzel", "Times New Roman", serif;
     font-size: 33px;
     text-decoration: underline;
     padding-bottom: 11px; }

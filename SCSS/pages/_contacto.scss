@@ -7,7 +7,7 @@ body .main__contact {
     color: #3d010c;
     h2 {
         padding-top: 2%;
-        font-family: "Cinzel", serif;
+        font-family: $fontPrimaty, $fontAlternative, serif;
         font-size: 33px;
         text-decoration: underline;
         padding-bottom: 11px;

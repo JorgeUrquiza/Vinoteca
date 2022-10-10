@@ -5,7 +5,7 @@
 
 .main__header {
     background: #1f1f1f;
-    font-family: "Cinzel", serif;
+    font-family: $fontPrimaty, $fontAlternative, serif;
     font-size: 20px;
     color: #f2f2f2;
     nav {

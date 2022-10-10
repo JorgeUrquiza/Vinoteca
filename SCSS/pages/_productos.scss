@@ -5,19 +5,19 @@
     h2 {
         color: #3d010c;
         font-size: 40px;
-        font-family: "Cinzel", serif;
+        font-family: $fontPrimaty, $fontAlternative, serif;
         padding-bottom: 10px;
         padding-top: 10px;
     }
     h3 {
         color: #3d010c;
         font-size: 25px;
-        font-family: "Cinzel", serif;
+        font-family: $fontPrimaty, $fontAlternative, serif;
         padding-bottom: 10px;
         padding-top: 10px;
     }
     p {
-        font-family: "Cinzel", serif;
+        font-family: $fontPrimaty, $fontAlternative, serif;
         font-size: 20px;
     }
     .product {
@@ -81,5 +81,4 @@
             }
         }
     }
-
 }
