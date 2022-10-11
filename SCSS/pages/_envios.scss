@@ -8,7 +8,7 @@ body .main__ship {
         padding-bottom: 15px;
         padding-left: 12px;
         font-size: 37px;
-        color: #3d010c;
+        color: map-get($colors , $key: primary );
     }
     .main__paragraph {
         font-size: 20px;
@@ -20,7 +20,7 @@ body .main__ship {
         padding-bottom: 15px;
         padding-left: 12px;
         font-size: 37px;
-        color: #3d010c;
+        color: map-get($colors , $key: primary );
     }
 }
 
@@ -38,7 +38,7 @@ body .main__ship {
         }
         h3 {
             font-size: 37px;
-            color: #3d010c;
+            color: map-get($colors , $key: primary );
         }
         .main__info {
             display: grid;

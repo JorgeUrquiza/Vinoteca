@@ -3,14 +3,14 @@
     background: #f2f2f2;
     text-align: center;
     h2 {
-        color: #3d010c;
+        color: map-get($colors , $key: primary );
         font-size: 40px;
         font-family: $fontPrimaty, $fontAlternative, serif;
         padding-bottom: 10px;
         padding-top: 10px;
     }
     h3 {
-        color: #3d010c;
+        color: map-get($colors , $key: primary );
         font-size: 25px;
         font-family: $fontPrimaty, $fontAlternative, serif;
         padding-bottom: 10px;
@@ -38,7 +38,7 @@
                 color: black;
                 text-decoration: none;
                 padding: 2px 2px;
-                border: 1.5px solid #140104;
+                border: 1.5px solid map-get($colors , $key: secundary );
                 border-radius: 5px;
             }
         }
@@ -68,14 +68,14 @@
             }
             ul li a {
                 transition: 0.6s ease;
-                color: black;
+                color: map-get($colors , $key: secundary );
                 text-decoration: none;
                 padding: 2px 2px;
-                border: 1.5px solid #140104;
+                border: 1.5px solid map-get($colors , $key: secundary );
                 border-radius: 5px;
                 &:hover {
-                    background-color: #140104;
-                    color: #ffffff;
+                    background-color: map-get($colors , $key: secundary );
+                    color: map-get($colors , $key: sure );
                     opacity: 1;
                 }
             }

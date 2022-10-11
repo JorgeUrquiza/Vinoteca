@@ -5,20 +5,11 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-black: #000;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
+  --bs-primary: #3d010c;
+  --bs-secundary: #140004;
+  --bs-nav: #1f1f1f;
+  --bs-sure: #ffffff;
+  --bs-halfWhite: #f2f2f2;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
@@ -8592,7 +8583,7 @@ textarea.form-control-lg {
         color: black;
         text-decoration: none;
         padding: 2px 2px;
-        border: 1.5px solid #140104;
+        border: 1.5px solid #140004;
         border-radius: 5px; }
 
 @media (min-width: 992px) {
@@ -8613,13 +8604,13 @@ textarea.form-control-lg {
         margin: 1% 18%; }
       .main__product .product ul li a {
         transition: 0.6s ease;
-        color: black;
+        color: #140004;
         text-decoration: none;
         padding: 2px 2px;
-        border: 1.5px solid #140104;
+        border: 1.5px solid #140004;
         border-radius: 5px; }
         .main__product .product ul li a:hover {
-          background-color: #140104;
+          background-color: #140004;
           color: #ffffff;
           opacity: 1; } }
 
