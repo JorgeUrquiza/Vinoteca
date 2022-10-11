@@ -1,6 +1,6 @@
 .main__product {
     margin-top: 18%;
-    background: #f2f2f2;
+    background: map-get($colors , $key: halfWhite );
     text-align: center;
     h2 {
         color: map-get($colors , primary );
@@ -31,20 +31,16 @@
             padding-bottom: 15px;
             margin: 1% 18%;
         }
-        ul {
-            margin: auto;
-            list-style: none;
-            li a {
-                color: black;
-                text-decoration: none;
-                padding: 2px 2px;
-                border: 1.5px solid map-get($colors , secundary );
-                border-radius: 5px;
+        a {                
+            color: map-get($colors , nav );
+            text-decoration: none;
+            font-family: $fontPrimaty, $fontAlternative, serif;
+            &:hover{
+                color:map-get($colors , sure );
             }
         }
     }
 }
-
 
 @media (min-width: 992px) {
     .main__product {
@@ -66,17 +62,10 @@
                 padding-bottom: 15px;
                 margin: 1% 18%;
             }
-            ul li a {
-                transition: 0.6s ease;
-                color: map-get($colors , secundary );
-                text-decoration: none;
-                padding: 2px 2px;
-                border: 1.5px solid map-get($colors , secundary );
-                border-radius: 5px;
-                &:hover {
-                    background-color: map-get($colors , secundary );
-                    color: map-get($colors , sure );
-                    opacity: 1;
+            a {                
+                color: map-get($colors , nav );
+                &:hover{
+                    color:map-get($colors , sure );
                 }
             }
         }

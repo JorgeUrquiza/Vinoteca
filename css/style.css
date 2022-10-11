@@ -8576,15 +8576,12 @@ textarea.form-control-lg {
       font-size: 20px;
       padding-bottom: 15px;
       margin: 1% 18%; }
-    .main__product .product ul {
-      margin: auto;
-      list-style: none; }
-      .main__product .product ul li a {
-        color: black;
-        text-decoration: none;
-        padding: 2px 2px;
-        border: 1.5px solid #140004;
-        border-radius: 5px; }
+    .main__product .product a {
+      color: #1f1f1f;
+      text-decoration: none;
+      font-family: "Cinzel", "Times New Roman", serif; }
+      .main__product .product a:hover {
+        color: #ffffff; }
 
 @media (min-width: 992px) {
   .main__product {
@@ -8602,17 +8599,10 @@ textarea.form-control-lg {
       .main__product .product p {
         padding-bottom: 15px;
         margin: 1% 18%; }
-      .main__product .product ul li a {
-        transition: 0.6s ease;
-        color: #140004;
-        text-decoration: none;
-        padding: 2px 2px;
-        border: 1.5px solid #140004;
-        border-radius: 5px; }
-        .main__product .product ul li a:hover {
-          background-color: #140004;
-          color: #ffffff;
-          opacity: 1; } }
+      .main__product .product a {
+        color: #1f1f1f; }
+        .main__product .product a:hover {
+          color: #ffffff; } }
 
 body .main__ship {
   margin-top: 20%;
