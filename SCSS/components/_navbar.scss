@@ -4,16 +4,16 @@
 }
 
 .main__header {
-    background: map-get($colors , $key: nav );
+    background: map-get($colors , nav );
     font-family: $fontPrimaty, $fontAlternative, serif;
     font-size: 20px;
-    color: map-get($colors , $key: halfWhite );
+    color: map-get($colors , halfWhite );
     nav {
         padding-right: 5px;
         .nav-item {
             transition: opacity 0.6s ease;
             opacity: 0.6;
-            color: map-get($colors , $key: halfWhite );
+            color: map-get($colors , halfWhite );
             font-size: 1.5rem;
             font-weight: 500;
             border-radius: 10px;
@@ -21,8 +21,8 @@
             text-align: end;
             &:hover {
                 display: inline-block;
-                background: map-get($colors , $key: primary );
-                color: map-get($colors , $key: halfWhite );
+                background: map-get($colors , primary );
+                color: map-get($colors , halfWhite );
                 opacity: 1;
             }
         }

@@ -4,7 +4,7 @@
         font-family: $fontPrimaty,$fontAlternative;
         text-align: center;
         font-size: 30px;
-        color: map-get($colors , $key: primary );
+        color: map-get($colors , primary );
     }
     .main__paragraph {
         font-family: $fontPrimaty,$fontAlternative;
@@ -21,7 +21,7 @@
             line-height: 34px;
             margin-bottom: 40px;
             font-weight: 300;
-            color:  map-get($colors , $key: primary );
+            color:  map-get($colors , primary );
             text-align: center;
         }
         .container__shop {
@@ -30,7 +30,7 @@
             font-family: $fontPrimaty,$fontAlternative;
             text-align: center;
             font-size: 20px;
-            color: map-get($colors , $key: primary );
+            color: map-get($colors , primary );
             .shop {
                 width: 100%;
                 padding-bottom: 2%;
@@ -56,7 +56,7 @@
         font-family: $fontPrimaty,$fontAlternative;
         margin-left: 15px;
         font-size: 30px;
-        color: map-get($colors , $key: primary );
+        color: map-get($colors , primary );
         margin-bottom: 20px;
     }
     .paragraph {
@@ -84,7 +84,7 @@
             padding-bottom: 40px;
         }
         .categories__contain {
-            background: #f2f2f2;
+            background: map-get($colors , halfWhite );
             overflow: hidden;
             padding: 30px 0;
             h3 {
@@ -105,7 +105,7 @@
                     opacity: 0.85;
                     &:hover {
                         opacity: 1;
-                        color: #140004;
+                        color: map-get($colors , secundary );
                         font-size: 28px;
                         width: 27%;
                     }

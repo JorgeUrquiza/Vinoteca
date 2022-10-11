@@ -1,14 +1,14 @@
 .footer {
-    background: map-get($colors , $key: secundary );
-    color: map-get($colors , $key: sure );
+    background: map-get($colors , secundary );
+    color: map-get($colors , sure );
     font-size: 20px;
 }
 
 .footer__paragraph {
-    color: map-get($colors , $key: sure );
+    color: map-get($colors , sure );
     padding-left: 5%;
     h3{
-        color: map-get($colors , $key: sure );
+        color: map-get($colors , sure );
         font-size: 1.7rem;
         padding-top: 10px;
         font-family: $fontPrimaty, $fontAlternative, serif;
@@ -32,7 +32,7 @@
     }    
     
     .footer__paragraph  {
-        color: map-get($colors , $key: sure );
+        color: map-get($colors , sure );
         h3{
             font-size: 1.7rem;
             text-align: center;
