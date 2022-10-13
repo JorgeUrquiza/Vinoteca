@@ -68,7 +68,7 @@ body {
                 font-family: $fontPrimaty, $fontAlternative, serif;
                 text-align: center;
                 font-weight: 400;
-                font-size: 3em;
+                font-size: 3rem;
                 color: map-get($colors, halfWhite);
                 text-shadow: 2px 2px 4px map-get($colors, secundary);
             }
