@@ -8684,7 +8684,7 @@ body .main__ship {
       text-align: center; } }
 
 body .main__contact {
-  margin-top: 20%;
+  padding-top: 19%;
   height: 100%;
   background: #f2f2f2;
   text-align: center;
@@ -8696,17 +8696,15 @@ body .main__contact {
     font-size: 33px;
     text-decoration: underline;
     padding-bottom: 11px; }
-  body .main__contact .country {
-    width: 100%; }
 
 @media (min-width: 992px) {
   body .main__contact {
-    margin-top: 2%; }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 5%;
+    padding-bottom: 4%; }
     body .main__contact h2, body .main__contact .h2 {
-      padding-top: 2.5%;
-      font-size: 40px; }
-    body .main__contact .country {
-      width: auto; } }
+      font-size: 40px; } }
 
 * {
   padding: 0;

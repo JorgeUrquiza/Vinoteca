@@ -1,5 +1,5 @@
 body .main__contact {
-    margin-top: 20%;
+    padding-top: 19%;
     height: 100%;
     background: map-get($colors , halfWhite );
     text-align: center;
@@ -12,20 +12,16 @@ body .main__contact {
         text-decoration: underline;
         padding-bottom: 11px;
     }
-    .country {
-        width: 100%;
-    }
 }
 
 @media (min-width: 992px) {
     body .main__contact {
-        margin-top: 2%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 5%;
+        padding-bottom: 4%;   
         h2 {
-            padding-top: 2.5%;
             font-size: 40px;
-        }
-        .country {
-            width: auto;
         }
     }
 }
