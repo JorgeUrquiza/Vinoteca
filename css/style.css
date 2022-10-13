@@ -8643,7 +8643,7 @@ body .main__ship {
     grid-gap: 300px; } }
 
 .main__about {
-  margin-top: 19%;
+  padding-top: 18%;
   height: 100%;
   background: #f2f2f2; }
   .main__about img {
@@ -8668,20 +8668,75 @@ body .main__ship {
     padding-bottom: 20px;
     text-align: center;
     margin: auto; }
+  .main__about .container {
+    padding-bottom: 4%; }
 
 @media (min-width: 992px) {
   .main__about {
-    margin-top: 3.5%; }
+    padding-top: 1%; }
     .main__about img {
+      padding-top: 0;
       width: 100vw; }
-    .main__about h2, .main__about .h2 {
-      font-size: 30px;
-      line-height: 60px; }
-    .main__about h3, .main__about .h3 {
-      line-height: 60px;
-      padding-bottom: 10px; }
-    .main__about p {
-      text-align: center; } }
+    .main__about .container {
+      display: grid;
+      grid-template-columns: repeat(6, 2fr);
+      padding-bottom: 0; }
+      .main__about .container .box-01 {
+        grid-column-start: 1;
+        grid-column-end: -1; }
+      .main__about .container .box-02 {
+        grid-column-start: 1;
+        grid-column-end: 3; }
+      .main__about .container .box-03 {
+        grid-column-start: 4;
+        grid-column-end: 6; }
+        .main__about .container .box-03 img {
+          margin-top: 12%;
+          width: 500px;
+          height: 300px;
+          border-radius: 5%; }
+      .main__about .container .box-04 {
+        grid-column-start: 1;
+        grid-column-end: 3; }
+      .main__about .container .box-05 {
+        grid-column-start: 4;
+        grid-column-end: 6; }
+        .main__about .container .box-05 img {
+          margin-top: 8%;
+          width: 500px;
+          height: 350px;
+          border-radius: 5%; }
+      .main__about .container .box-06 {
+        height: 20%;
+        grid-column-start: 1;
+        grid-column-end: 3; }
+      .main__about .container .box-07 {
+        grid-column-start: 4;
+        grid-column-end: 6; }
+        .main__about .container .box-07 img {
+          margin-top: 5%;
+          width: 500px;
+          height: 300px;
+          border-radius: 5%; }
+      .main__about .container .box-08 {
+        grid-column-start: 1;
+        grid-column-end: 3; }
+      .main__about .container .box-09 {
+        grid-column-start: 4;
+        grid-column-end: 6; }
+        .main__about .container .box-09 img {
+          margin-top: 15%;
+          width: 500px;
+          height: 600px;
+          border-radius: 6%; }
+      .main__about .container h2, .main__about .container .h2 {
+        font-size: 30px;
+        line-height: 60px; }
+      .main__about .container h3, .main__about .container .h3 {
+        line-height: 60px;
+        padding-bottom: 10px; }
+      .main__about .container p {
+        text-align: center; } }
 
 body .banner {
   width: 100%;
