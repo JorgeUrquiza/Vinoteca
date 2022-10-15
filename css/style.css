@@ -8592,7 +8592,12 @@ textarea.form-control-lg {
       padding-top: 15px; }
     .main__product h3, .main__product .h3 {
       padding-top: 10px; }
+    .main__product .container__producto {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
     .main__product .product {
+      width: 50%;
       padding-top: 5px; }
       .main__product .product img {
         width: 15%; }
