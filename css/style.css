@@ -8537,7 +8537,7 @@ textarea.form-control-lg {
             opacity: 1;
             color: #140004;
             font-size: 28px;
-            width: 27%; }
+            transform: scale(1.05); }
           .main .categories__contain .container__shop .shop .thum {
             width: 100%;
             margin-bottom: 10px; }
