@@ -53,7 +53,13 @@
         h3 {
             padding-top: 10px;
         }
+        .container__producto{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
         .product {
+            width: 50%;
             padding-top: 5px;
             img {
                 width: 15%;

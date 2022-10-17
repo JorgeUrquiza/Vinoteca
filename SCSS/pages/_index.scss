@@ -12,7 +12,7 @@
         font-size: 20px;
     }
     .categories__contain {
-        background: #f2f2f2;
+        background :map-get($colors , halfWhite );
         overflow: hidden;
         padding: 30px 0;
         h3 {
@@ -107,7 +107,7 @@
                         opacity: 1;
                         color: map-get($colors , secundary );
                         font-size: 28px;
-                        width: 27%;
+                        transform: scale(1.05);
                     }
                     .thum {
                         width: 100%;
