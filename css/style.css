@@ -8600,7 +8600,7 @@ textarea.form-control-lg {
       width: 50%;
       padding-top: 5px; }
       .main__product .product img {
-        width: 15%; }
+        width: 25%; }
       .main__product .product p {
         padding-bottom: 15px;
         margin: 1% 18%; }
@@ -8652,7 +8652,7 @@ body .main__ship {
   height: 100%;
   background: #f2f2f2; }
   .main__about img {
-    width: 100vw; }
+    width: 100%; }
   .main__about h2, .main__about .h2 {
     text-align: center;
     font-family: "Cinzel", "Times New Roman", serif;
@@ -8680,8 +8680,7 @@ body .main__ship {
   .main__about {
     padding-top: 1%; }
     .main__about img {
-      padding-top: 0;
-      width: 100vw; }
+      padding-top: 0; }
     .main__about .container {
       display: grid;
       grid-template-columns: repeat(6, 2fr);
@@ -8697,6 +8696,7 @@ body .main__ship {
         grid-column-end: 6; }
         .main__about .container .box-03 img {
           margin-top: 12%;
+          margin-left: 35%;
           width: 500px;
           height: 300px;
           border-radius: 5%; }
@@ -8708,6 +8708,7 @@ body .main__ship {
         grid-column-end: 6; }
         .main__about .container .box-05 img {
           margin-top: 8%;
+          margin-left: 35%;
           width: 500px;
           height: 350px;
           border-radius: 5%; }
@@ -8720,6 +8721,7 @@ body .main__ship {
         grid-column-end: 6; }
         .main__about .container .box-07 img {
           margin-top: 5%;
+          margin-left: 35%;
           width: 500px;
           height: 300px;
           border-radius: 5%; }
@@ -8731,6 +8733,7 @@ body .main__ship {
         grid-column-end: 6; }
         .main__about .container .box-09 img {
           margin-top: 15%;
+          margin-left: 35%;
           width: 500px;
           height: 600px;
           border-radius: 6%; }
