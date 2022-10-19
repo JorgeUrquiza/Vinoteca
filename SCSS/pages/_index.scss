@@ -77,11 +77,25 @@
         margin-top: 0%;
         .main__title {
             font-size: 50px;
-            padding-bottom: 15px;
+            padding-top: 0.5%;
+            padding-bottom: 2%;
         }
         .main__paragraph {
             font-size: 20px;
-            padding-bottom: 40px;
+            padding-bottom: 3%;
+        }
+        .main__info{
+            h3{
+                padding-top: 2%;
+                margin-left: 0;
+            }
+            .paragraph{
+                padding-left: 3%;
+            }
+            .map{
+                margin-top: 5%;
+                margin-right: 2%;
+            }
         }
         .categories__contain {
             background: map-get($colors , halfWhite );
@@ -106,7 +120,7 @@
                     &:hover {
                         opacity: 1;
                         color: map-get($colors , secundary );
-                        font-size: 28px;
+                        font-size: 27px;
                         transform: scale(1.05);
                     }
                     .thum {

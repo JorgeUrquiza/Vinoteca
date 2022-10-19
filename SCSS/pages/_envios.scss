@@ -27,13 +27,21 @@ body .main__ship {
 @media (min-width: 992px) {
     body {
         .main__ship {
-            margin-top: 2%;
-            padding-left: 30px;
+            margin-top: 3%;
+            img{
+                width: 100%;
+            }
             h2 {
                 font-size: 37px;
+                padding-top: 1%;
+            }
+            .table{
+                width: 95%;
+                margin-left: 1%;
             }
             .main__paragraph {
                 line-height: 40px;
+                margin-left: 1%;
             }
         }
         h3 {
@@ -44,6 +52,13 @@ body .main__ship {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 300px;
+            .paragraph{
+                padding-left: 1%;
+            }
+            .map{
+                margin-top: 1%;
+                margin-right: 4%;
+            }
         }
     }
 }
