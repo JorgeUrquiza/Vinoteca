@@ -8750,7 +8750,7 @@ body .banner {
   display: flex;
   align-items: center;
   text-align: center;
-  background: center fixed url(../../img/contacto10.jpg); }
+  background: center fixed url(../img/contacto10.jpg); }
   body .banner h3, body .banner .h3 {
     font-family: "Cinzel", "Times New Roman", serif;
     text-align: center;
