@@ -3,7 +3,7 @@
     height: 100%;
     background: map-get($colors, halfWhite);
     img {
-        width: 100vw;
+        width: 100%;
     }
     h2 {
         text-align: center;
@@ -36,7 +36,6 @@
 @media (min-width: 992px) {
     .main__about {
         padding-top: 1%;
-        width: 100vw;
         img {
             padding-top: 0;
         }

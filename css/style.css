@@ -8652,7 +8652,7 @@ body .main__ship {
   height: 100%;
   background: #f2f2f2; }
   .main__about img {
-    width: 100vw; }
+    width: 100%; }
   .main__about h2, .main__about .h2 {
     text-align: center;
     font-family: "Cinzel", "Times New Roman", serif;
@@ -8678,8 +8678,7 @@ body .main__ship {
 
 @media (min-width: 992px) {
   .main__about {
-    padding-top: 1%;
-    width: 100vw; }
+    padding-top: 1%; }
     .main__about img {
       padding-top: 0; }
     .main__about .container {
