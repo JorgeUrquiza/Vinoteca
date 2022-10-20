@@ -1,7 +1,24 @@
 body .main__ship {
-    margin-top: 20%;
-    background: map-get($colors , halfWhite );
+    margin-top: 19%;
+    background:  map-get($colors , halfWhite );
     font-size: 25px;
+    .banner__envios{
+        overflow: hidden;
+        position: relative;                
+        img{
+            width: 100%;
+        }
+        p{
+            font-family: $fontPrimaty, $fontAlternative, serif;
+            font-size: 16px;
+            position: absolute;
+            color: map-get($colors , sure );
+            top: 60%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        }
+    }
     h2 {
         padding-top: 3%;
         font-family: $fontPrimaty, $fontAlternative, serif;
@@ -28,12 +45,25 @@ body .main__ship {
     body {
         .main__ship {
             margin-top: 2%;
-            padding-left: 30px;
+            .banner__envios{              
+                p{
+                    font-size: 4rem;
+                    color: map-get($colors , sure );
+                    top: 70%;
+                    left: 30%;
+                }
+            }
             h2 {
                 font-size: 37px;
+                padding-top: 1%;
+            }
+            .table{
+                width: 95%;
+                margin-left: 1%;
             }
             .main__paragraph {
                 line-height: 40px;
+                margin-left: 1%;
             }
         }
         h3 {
@@ -44,6 +74,13 @@ body .main__ship {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 300px;
+            .paragraph{
+                padding-left: 1%;
+            }
+            .map{
+                margin-top: 1%;
+                margin-right: 4%;
+            }
         }
     }
 }

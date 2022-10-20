@@ -8510,10 +8510,19 @@ textarea.form-control-lg {
     margin-top: 0%; }
     .main .main__title {
       font-size: 50px;
-      padding-bottom: 15px; }
+      padding-top: 0.5%;
+      padding-bottom: 2%; }
     .main .main__paragraph {
       font-size: 20px;
-      padding-bottom: 40px; }
+      padding-bottom: 3%; }
+    .main .main__info h3, .main .main__info .h3 {
+      padding-top: 2%;
+      margin-left: 0; }
+    .main .main__info .paragraph {
+      padding-left: 3%; }
+    .main .main__info .map {
+      margin-top: 5%;
+      margin-right: 2%; }
     .main .categories__contain {
       background: #f2f2f2;
       overflow: hidden;
@@ -8536,7 +8545,7 @@ textarea.form-control-lg {
           .main .categories__contain .container__shop .shop:hover {
             opacity: 1;
             color: #140004;
-            font-size: 28px;
+            font-size: 27px;
             transform: scale(1.05); }
           .main .categories__contain .container__shop .shop .thum {
             width: 100%;
@@ -8610,9 +8619,23 @@ textarea.form-control-lg {
           color: #ffffff; } }
 
 body .main__ship {
-  margin-top: 20%;
+  margin-top: 19%;
   background: #f2f2f2;
   font-size: 25px; }
+  body .main__ship .banner__envios {
+    overflow: hidden;
+    position: relative; }
+    body .main__ship .banner__envios img {
+      width: 100%; }
+    body .main__ship .banner__envios p {
+      font-family: "Cinzel", "Times New Roman", serif;
+      font-size: 16px;
+      position: absolute;
+      color: #ffffff;
+      top: 60%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
   body .main__ship h2, body .main__ship .h2 {
     padding-top: 3%;
     font-family: "Cinzel", "Times New Roman", serif;
@@ -8633,19 +8656,33 @@ body .main__ship {
 
 @media (min-width: 992px) {
   body .main__ship {
-    margin-top: 2%;
-    padding-left: 30px; }
+    margin-top: 2%; }
+    body .main__ship .banner__envios p {
+      font-size: 4rem;
+      color: #ffffff;
+      top: 70%;
+      left: 30%; }
     body .main__ship h2, body .main__ship .h2 {
-      font-size: 37px; }
+      font-size: 37px;
+      padding-top: 1%; }
+    body .main__ship .table {
+      width: 95%;
+      margin-left: 1%; }
     body .main__ship .main__paragraph {
-      line-height: 40px; }
+      line-height: 40px;
+      margin-left: 1%; }
   body h3, body .h3 {
     font-size: 37px;
     color: #3d010c; }
   body .main__info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 300px; } }
+    grid-gap: 300px; }
+    body .main__info .paragraph {
+      padding-left: 1%; }
+    body .main__info .map {
+      margin-top: 1%;
+      margin-right: 4%; } }
 
 .main__about {
   padding-top: 18%;
@@ -8754,15 +8791,9 @@ body .banner {
   align-items: center;
   text-align: center;
   background: center fixed url(../img/contacto10.jpg); }
-  body .banner h3, body .banner .h3 {
-    font-family: "Cinzel", "Times New Roman", serif;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #f2f2f2;
-    text-shadow: 1px 1px 4px #3d010c; }
   body .banner p {
     font-family: "Cinzel", "Times New Roman", serif;
+    padding-top: 18%;
     opacity: 0.8;
     font-size: 1rem;
     color: #f2f2f2;
@@ -8794,32 +8825,16 @@ body .main__contact {
 
 @media (min-width: 992px) {
   body .banner {
-    width: 100%;
     height: 350px;
-    padding-top: 10%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background: center fixed url(../img/contacto10.jpg); }
-    body .banner h3, body .banner .h3 {
-      font-family: "Cinzel", "Times New Roman", serif;
-      text-align: center;
-      font-weight: 400;
-      font-size: 3rem;
-      color: #3d010c;
-      text-shadow: 2px 2px 4px #140004; }
+    padding-top: 10%; }
     body .banner p {
-      font-family: "Cinzel", "Times New Roman", serif;
       opacity: 0.9;
-      margin: 8% 0;
+      padding-top: 0;
       font-size: 2rem;
-      color: #f2f2f2;
+      color: #ffffff;
       text-shadow: 1px 1px 4px black; }
     body .banner .banner_description {
-      width: 90%;
-      max-width: 100%;
-      display: block;
-      margin: auto; }
+      width: 100%; }
   body .main__contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
