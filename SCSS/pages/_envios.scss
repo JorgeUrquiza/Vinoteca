@@ -1,14 +1,31 @@
 body .main__ship {
-    margin-top: 20%;
-    background: #f2f2f2;
+    margin-top: 19%;
+    background:  map-get($colors , halfWhite );
     font-size: 25px;
+    .banner__envios{
+        overflow: hidden;
+        position: relative;                
+        img{
+            width: 100%;
+        }
+        p{
+            font-family: $fontPrimaty, $fontAlternative, serif;
+            font-size: 16px;
+            position: absolute;
+            color: map-get($colors , sure );
+            top: 60%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        }
+    }
     h2 {
         padding-top: 3%;
         font-family: $fontPrimaty, $fontAlternative, serif;
         padding-bottom: 15px;
         padding-left: 12px;
         font-size: 37px;
-        color: map-get($colors , $key: primary );
+        color: map-get($colors , primary );
     }
     .main__paragraph {
         font-size: 20px;
@@ -20,16 +37,21 @@ body .main__ship {
         padding-bottom: 15px;
         padding-left: 12px;
         font-size: 37px;
-        color: map-get($colors , $key: primary );
+        color: map-get($colors , primary );
     }
 }
 
 @media (min-width: 992px) {
     body {
         .main__ship {
-            margin-top: 3%;
-            img{
-                width: 100%;
+            margin-top: 2%;
+            .banner__envios{              
+                p{
+                    font-size: 4rem;
+                    color: map-get($colors , sure );
+                    top: 70%;
+                    left: 30%;
+                }
             }
             h2 {
                 font-size: 37px;
@@ -46,7 +68,7 @@ body .main__ship {
         }
         h3 {
             font-size: 37px;
-            color: map-get($colors , $key: primary );
+            color: map-get($colors , primary );
         }
         .main__info {
             display: grid;

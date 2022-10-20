@@ -7,21 +7,13 @@ body {
         align-items: center;
         text-align: center;
         background: center fixed url(../img/contacto10.jpg);
-        h3{
-            font-family: $fontPrimaty, $fontAlternative, serif;
-            text-align: center;
-            font-weight: 400;
-            font-size: 1.5rem;
-            color: map-get($colors, halfWhite);
-            text-shadow: 1px 1px 4px map-get($colors, primary);
-        }
         p{
             font-family: $fontPrimaty, $fontAlternative, serif;
+            padding-top: 18%;
             opacity: 0.8;
             font-size: 1rem;
             color: map-get($colors, halfWhite);
-            text-shadow: 1px 1px 4px map-get($colors, primary) ;
-            
+            text-shadow: 1px 1px 4px map-get($colors, primary) ;            
         }
         .banner_description{
             width: 90%;
@@ -57,35 +49,18 @@ body {
 @media (min-width: 992px) {
     body {
         .banner {
-            width: 100%;
             height: 350px;
             padding-top: 10%;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            background: center fixed url(../img/contacto10.jpg);
-            h3{
-                font-family: $fontPrimaty, $fontAlternative, serif;
-                text-align: center;
-                font-weight: 400;
-                font-size: 3rem;
-                color: map-get($colors, primary);
-                text-shadow: 2px 2px 4px map-get($colors, secundary);
-            }
             p{
-                font-family: $fontPrimaty, $fontAlternative, serif;
                 opacity: 0.9;
-                margin: 8% 0;
+                padding-top: 0;
                 font-size: 2rem;
-                color: map-get($colors, halfWhite);
+                color: map-get($colors, sure);
                 text-shadow: 1px 1px 4px black;
                 
             }
             .banner_description{
-                width: 90%;
-                max-width: 100%;
-                display: block;
-                margin: auto;
+                width: 100%;
             }
         }
         .main__contact {
