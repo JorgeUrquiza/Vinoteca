@@ -8558,9 +8558,24 @@ textarea.form-control-lg {
 
 /* ----- Fin de Contenido principal ----- */
 .main__product {
-  margin-top: 18%;
+  margin-top: 19%;
   background: #f2f2f2;
   text-align: center; }
+  .main__product .banner__productos {
+    overflow: hidden;
+    position: relative; }
+    .main__product .banner__productos img {
+      width: 100%; }
+    .main__product .banner__productos p {
+      font-family: "Cinzel", "Times New Roman", serif;
+      font-size: 18px;
+      position: absolute;
+      color: #ffffff;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
   .main__product h2, .main__product .h2 {
     color: #3d010c;
     font-size: 40px;
@@ -8580,7 +8595,8 @@ textarea.form-control-lg {
     text-align: center;
     padding-top: 5px; }
     .main__product .product img {
-      width: 35%; }
+      width: 50%;
+      box-shadow: 2px 2px 8px #140004; }
     .main__product .product p {
       font-size: 20px;
       padding-bottom: 15px;
@@ -8596,6 +8612,10 @@ textarea.form-control-lg {
   .main__product {
     margin-top: 3%;
     height: 100%; }
+    .main__product .banner__productos p {
+      font-size: 4rem;
+      top: 70%;
+      left: 50%; }
     .main__product h2, .main__product .h2 {
       padding-bottom: 10px;
       padding-top: 15px; }
