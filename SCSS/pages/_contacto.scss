@@ -6,7 +6,7 @@ body {
         display: flex;
         align-items: center;
         text-align: center;
-        background: center fixed url(../img/contacto10.jpg);
+        background: center fixed url(../img/contacto12.jpg);
         p{
             font-family: $fontPrimaty, $fontAlternative, serif;
             padding-top: 18%;
@@ -69,11 +69,11 @@ body {
             height: 350px;
             padding-top: 10%;
             p{
-                opacity: 0.9;
+                opacity: 1;
                 padding-top: 0;
-                font-size: 2rem;
+                font-size: 3rem;
                 color: map-get($colors, sure);
-                text-shadow: 1px 1px 4px black;
+                text-shadow: 2px 2px 4px map-get($colors, primary);
                 
             }
             .banner_description{

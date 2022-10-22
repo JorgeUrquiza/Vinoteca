@@ -8904,7 +8904,7 @@ body .banner {
   display: flex;
   align-items: center;
   text-align: center;
-  background: center fixed url(../img/contacto10.jpg); }
+  background: center fixed url(../img/contacto12.jpg); }
   body .banner p {
     font-family: "Cinzel", "Times New Roman", serif;
     padding-top: 18%;
@@ -8951,11 +8951,11 @@ body .main__contact {
     height: 350px;
     padding-top: 10%; }
     body .banner p {
-      opacity: 0.9;
+      opacity: 1;
       padding-top: 0;
-      font-size: 2rem;
+      font-size: 3rem;
       color: #ffffff;
-      text-shadow: 1px 1px 4px black; }
+      text-shadow: 2px 2px 4px #3d010c; }
     body .banner .banner_description {
       width: 100%; }
   body .main__contact {
