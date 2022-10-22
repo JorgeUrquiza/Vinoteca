@@ -32,7 +32,7 @@ body {
             padding-top: 2%;
             font-family: $fontPrimaty, $fontAlternative, serif;
             font-size: 33px;
-            text-decoration: underline;
+            text-decoration: none;
             padding-bottom: 11px;
         }
         a {                
@@ -44,6 +44,23 @@ body {
             }
         }
     }
+}
+
+@media (min-width: 768px){
+    body {
+        .banner {
+            p{
+                padding-top: 1%;
+                font-size: 1.5rem;;            
+            }
+        }
+        .main__contact {
+            font-size: 22px;
+            h2 {
+                font-size: 35px;
+            }
+        }
+    }    
 }
 
 @media (min-width: 992px) {

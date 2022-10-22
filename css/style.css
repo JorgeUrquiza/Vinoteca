@@ -8527,7 +8527,9 @@ textarea.form-control-lg {
       margin-bottom: 20px; }
     .main .main__info .paragraph {
       margin-left: 10px;
-      font-size: 25px; } }
+      font-size: 25px; }
+    .main .main__info .map {
+      margin: 0 2% 1% 2%; } }
 
 @media (min-width: 992px) {
   /* ----- Contenido Principal ----- */
@@ -8728,6 +8730,31 @@ body .main__ship {
     font-size: 37px;
     color: #3d010c; }
 
+@media (min-width: 768px) {
+  body .main__ship {
+    margin-top: 9%; }
+    body .main__ship .banner__envios img {
+      width: 100%; }
+    body .main__ship .banner__envios p {
+      font-size: 1.6rem;
+      left: 32%; }
+    body .main__ship h2, body .main__ship .h2 {
+      padding-top: 3%; }
+    body .main__ship .main__paragraph {
+      font-size: 20px;
+      padding: 20px 0px 15px 10px;
+      line-height: 30px; }
+    body .main__ship h3, body .main__ship .h3 {
+      font-family: "Cinzel", "Times New Roman", serif;
+      padding-bottom: 15px;
+      padding-left: 12px;
+      font-size: 37px;
+      color: #3d010c; }
+    body .main__ship .main__info .paragraph {
+      padding-left: 1%; }
+    body .main__ship .main__info .map {
+      margin: 0 2% 1% 2%; } }
+
 @media (min-width: 992px) {
   body .main__ship {
     margin-top: 2%; }
@@ -8743,8 +8770,9 @@ body .main__ship {
       width: 95%;
       margin-left: 1%; }
     body .main__ship .main__paragraph {
+      font-size: 20px;
       line-height: 40px;
-      margin-left: 1%; }
+      margin-left: 0.5%; }
   body h3, body .h3 {
     font-size: 37px;
     color: #3d010c; }
@@ -8786,6 +8814,17 @@ body .main__ship {
     margin: auto; }
   .main__about .container {
     padding-bottom: 4%; }
+
+@media (min-width: 768px) {
+  .main__about {
+    padding-top: 9%; }
+    .main__about h2, .main__about .h2 {
+      font-size: 35px; }
+    .main__about h3, .main__about .h3 {
+      font-size: 30px; }
+    .main__about p {
+      font-size: 20px;
+      text-align: left; } }
 
 @media (min-width: 992px) {
   .main__about {
@@ -8849,13 +8888,14 @@ body .main__ship {
           height: 600px;
           border-radius: 6%; }
       .main__about .container h2, .main__about .container .h2 {
-        font-size: 30px;
+        font-size: 2.5rem;
         line-height: 60px; }
       .main__about .container h3, .main__about .container .h3 {
         line-height: 60px;
         padding-bottom: 10px; }
       .main__about .container p {
-        text-align: center; } }
+        text-align: center;
+        font-size: 18px; } }
 
 body .banner {
   width: 100%;
@@ -8888,7 +8928,7 @@ body .main__contact {
     padding-top: 2%;
     font-family: "Cinzel", "Times New Roman", serif;
     font-size: 33px;
-    text-decoration: underline;
+    text-decoration: none;
     padding-bottom: 11px; }
   body .main__contact a {
     color: #ffffff;
@@ -8896,6 +8936,15 @@ body .main__contact {
     font-family: "Cinzel", "Times New Roman", serif; }
     body .main__contact a:hover {
       color: #ffffff; }
+
+@media (min-width: 768px) {
+  body .banner p {
+    padding-top: 1%;
+    font-size: 1.5rem; }
+  body .main__contact {
+    font-size: 22px; }
+    body .main__contact h2, body .main__contact .h2 {
+      font-size: 35px; } }
 
 @media (min-width: 992px) {
   body .banner {

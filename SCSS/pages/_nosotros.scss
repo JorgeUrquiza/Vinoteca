@@ -33,6 +33,22 @@
     }
 }
 
+@media (min-width: 768px){
+    .main__about {
+        padding-top: 9%;
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+            text-align: left;
+        }
+    }
+}
+
 @media (min-width: 992px) {
     .main__about {
         padding-top: 1%;
@@ -109,7 +125,7 @@
                 }
             }
             h2 {
-                font-size: 30px;
+                font-size: 2.5rem;
                 line-height: 60px;
             }
             h3 {
@@ -118,6 +134,7 @@
             }
             p {
                 text-align: center;
+                font-size: 18px;
             }
         }
     }
