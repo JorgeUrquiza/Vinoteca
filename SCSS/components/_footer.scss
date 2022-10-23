@@ -1,51 +1,125 @@
 .footer {
-    background: map-get($colors , secundary );
-    color: map-get($colors , sure );
+    background: map-get($colors, secundary);
+    color: map-get($colors, sure);
     font-size: 20px;
-}
-
-.footer__paragraph {
-    color: map-get($colors , sure );
-    padding-left: 5%;
-    h3{
-        color: map-get($colors , sure );
-        font-size: 1.7rem;
-        padding-top: 10px;
-        font-family: $fontPrimaty, $fontAlternative, serif;
+    .grupo-1 {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: 15px 0;
+        text-align: center;
+        .box {
+            h3 {
+                font-family: $fontPrimaty, $fontAlternative, serif;
+                color: map-get($colors, sure);
+                font-size: 1.7rem;
+                margin-bottom: 25px;
+            }
+            p {
+                font-family: $fontPrimaty, $fontAlternative, serif;
+                color: map-get($colors, halfWhite);
+                font-size: 1.2rem;
+                padding-bottom: 2%;
+                img {
+                    width: 7%;
+                    padding-right: 10px;
+                }
+            }
+            a {
+                text-decoration: none;
+            }
+            figure {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 60%;
+                }
+            }
+            .red-social {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                a {
+                    img {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+    .grupo-2 {
+        padding: 15px 10px;
+        text-align: center;
+        color: map-get($colors, sure);
     }
 }
 
-.footer__logo {
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: center;
-    .logo__son {
-        padding-bottom: 5%;
-        width: 35%;
+@media (min-width: 768px){
+    .footer {
+        .grupo-1 {
+            grid-gap: 30px;
+            padding: 20px 0;
+            .box {
+                h3 {
+                    font-size: 2rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                    img {
+                        width: 5%;
+                    }
+                }
+                .red-social {
+                    justify-content: space-evenly;
+                }
+            }
+        }
     }
 }
-
 
 @media (min-width: 992px) {
     .footer {
-        font-size: 20px;
-    }    
-    
-    .footer__paragraph  {
-        color: map-get($colors , sure );
-        h3{
-            font-size: 1.7rem;
+        .grupo-1 {
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 50px;
+            padding: 20px 0;
+            text-align: left;
+            .box {
+                h3 {
+                    font-size: 1.7rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                    img {
+                        width: 7%;
+                        padding-right: 10px;
+                    }
+                }
+                figure {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        width: 60%;
+                    }
+                }
+                .red-social {
+                    a {
+                        display: inline-block;
+                        text-decoration: none;
+                        img {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+        .grupo-2 {
+            padding: 10px 10px;
             text-align: center;
         }
-
     }
-    .footer__logo {
-        display: grid;
-        grid-template-rows: auto;
-        .logo__son {
-            width: 50%;
-            padding-bottom: 10%;
-        }
-    }
-
 }
